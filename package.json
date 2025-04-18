@@ -38,5 +38,8 @@
     "next": ">=10.0.0",
     "plaiceholder": "^3.0.0",
     "sharp": "^0.34.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
