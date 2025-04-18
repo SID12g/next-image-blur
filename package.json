@@ -1,0 +1,42 @@
+{
+  "name": "next-image-blur",
+  "version": "1.0.0",
+  "description": "A function that returns the blur data url of a dynamic image in Next.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "image",
+    "blur"
+  ],
+  "author": "SID12g",
+  "license": "MIT",
+  "packageManager": "pnpm@10.8.1",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.2",
+    "next": "^15.3.1",
+    "plaiceholder": "^3.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sharp": "^0.34.1",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "next": ">=10.0.0",
+    "plaiceholder": "^3.0.0",
+    "sharp": "^0.34.1"
+  }
+}
