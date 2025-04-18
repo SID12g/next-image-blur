@@ -6,3 +6,11 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?color=green&labelColor=#5D5D5D)](https://github.com/toss/suspensive/blob/main/LICENSE)
 
 </div>
+
+<div align="center">
+
+[Example Page](https://next-image-blur.vercel.app/)
+
+[Related Post](https://post.sid12g.dev/tech/posts/next-image-blur)
+
+</div>
