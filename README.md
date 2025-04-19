@@ -9,6 +9,8 @@
 
 <div align="center">
 
+`pnpm add next-image-blur`
+
 [Example Page](https://next-image-blur-test.vercel.app/)
 
 [Related Post](https://post.sid12g.dev/tech/posts/next-image-blur)
