@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/logo.png">
+<img src="https://github.com/SID12g/next-image-blur/blob/main/assets/logo.png?raw=true">
 <h1 align="center">Next-Image-Blur</h1>
 <p style="font-size:16px;">A function that returns the blur data url of a dynamic image in Next.js</p>
 
@@ -15,7 +15,7 @@
 pnpm add next-image-blur
 ```
 
-<div style="display: flex; justify-content: space-between">
+<div align="center">
 
 <a href="https://next-image-blur-example.vercel.app">Example Page</a>
 
