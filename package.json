@@ -1,6 +1,6 @@
 {
   "name": "next-image-blur",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A function that returns the blur data url of a dynamic image in Next.js",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -22,6 +22,10 @@
   "author": "SID12g",
   "license": "MIT",
   "packageManager": "pnpm@10.8.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SID12g/next-image-blur.git"
+  },
   "devDependencies": {
     "@types/node": "^22.14.1",
     "@types/react": "^19.1.2",

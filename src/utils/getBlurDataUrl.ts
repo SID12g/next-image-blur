@@ -9,7 +9,7 @@ const getBlurDataUrl = async (imgSrc: string) => {
       const filePath = path.join(publicDir, imgSrc);
 
       if (!fs.existsSync(filePath)) {
-        console.error(`이미지 파일이 존재하지 않습니다: ${filePath}`);
+        console.error(`Image file does not exist: ${filePath}`);
         return "";
       }
 
@@ -24,7 +24,7 @@ const getBlurDataUrl = async (imgSrc: string) => {
       return base64;
     }
   } catch (e) {
-    console.error("Blur 이미지 생성 오류:", e);
+    console.error("Blur Image Error:", e);
     return "";
   }
 };
